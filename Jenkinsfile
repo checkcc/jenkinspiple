@@ -1,3 +1,5 @@
+def gv
+
 pipeline {
     agent any
     parameters {
@@ -22,9 +24,7 @@ pipeline {
         }
         stage("deploy") {
             steps {
-                steps {
-                    echo'building build deploy'
-                 }
+               echo'building deploy'
             }
         }
     }   
